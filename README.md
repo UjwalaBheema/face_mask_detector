@@ -21,7 +21,7 @@ To use this project on your system, follow these steps:
 1.Clone this repository onto your system by typing the following command on your Command Prompt:
 
 ```
-git clone https://github.com/Karan-Malik/face_mask_detector.git
+git clone https://github.com/UjwalaBheema/face_mask_detector.git
 ```
 followed by:
 
@@ -34,7 +34,10 @@ cd face_mask_detector
 pip install -r requirements.txt
 ```
 
-3. Run facemask.py by typing the following command on your Command Prompt:
+3. Download [text](<../h5 files facemaskdetector/vgg16_weights_tf_dim_ordering_tf_kernels.h5>)
+Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_tf_dim_ordering_tf_kernels.h5
+
+4. Run facemask.py by typing the following command on your Command Prompt:
 ```
 python FaceMaskDetector.ipynb
 ```
